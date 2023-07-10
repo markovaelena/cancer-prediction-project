@@ -1,0 +1,34 @@
+Name: Description
+
+id: ID number of the tumor specimen in the sample that was conducted
+diagnosis: The diagnosis of the tumor : either Benign (0) or Malignant (1)
+radius_mean: The mean radius of the tumor (mean of distances from center to points on the perimeter)
+radius_se: The standard error of the radius of the tumor (mean of distances from center to points on the perimeter)
+radius_worst: The worst radius of the tumor (mean of distances from center to points on the perimeter)
+texture_mean: The mean texture of the tumor (standard deviation of gray-scale values)
+texture_se: The standard error of the texture of the tumor (standard deviation of gray-scale values)
+texture_worst: The worst texture of the tumor (standard deviation of gray-scale values)
+perimeter_mean: The mean perimeter of the tumor
+perimeter_se: The standard error of the perimeter of the tumor
+perimeter_worst: The worst perimeter of the tumor
+area_mean: The mean area of the tumor
+area_se: The standard error of the area of the tumor
+area_worst: The worst area of the tumor
+smoothness_mean: The mean smoothness of the tumor (local variation in radius lengths)
+smoothness_se: The standard error of the smoothness of the tumor (local variation in radius lengths)
+smoothness_worst: The worst smoothness of the tumor (local variation in radius lengths)
+compactness_mean: The mean compactness of the tumor (perimeter^2 / area - 1.0)
+compactness_se: The standard error of the compactness of the tumor (perimeter^2 / area - 1.0)
+compactness_worst: The worst compactness of the tumor (perimeter^2 / area - 1.0)
+concavity_mean: The mean concavity of the tumor (severity of concave portions of the contour)
+concavity_se: The standard error of the concavity of the tumor (severity of concave portions of the contour)
+concavity_worst: The worst concavity of the tumor (severity of concave portions of the contour)
+concave_points_mean: The mean number of concave portions of the contour
+concave_points_se: The standard error of the number of concave portions of the contour
+concave_points_worst: The worst number of concave portions of the contour
+symmetry_mean: The mean symmetry of the tumor
+symmetry_se: The standard error of the symmetry of the tumor
+symmetry_worst: The worst symmetry of the tumor
+fractal_dimension_mean: The mean fractal dimension ("coastline approximation" - 1)
+fractal_dimension_se: The standard error of the fractal dimension ("coastline approximation" - 1)
+fractal_dimension_worst: The worst fractal dimension ("coastline approximation" - 1)

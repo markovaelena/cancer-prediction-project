@@ -1,0 +1,30 @@
+---
+title: "Final Project Data Memo"
+author: "Elena Markova"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+data <- read.csv("ben:mal.csv")
+str(data)
+```
+
+The dataset that I will be using for the final project is the Breast Cancer Wisconsin (Diagnostic) Data Set. I have downloaded this dataset from Kaggle at this [link](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). This data set includes 569 observations of breast masses, the associated ID number and Diagnosis (Malignant or Benign), and then 30 associated feature measurements of the mass. These 30 associated measurements will be 30 potential predictors of the final model. The response variable is categorical but all of the predictor variables are numerical. This data set does not have any missing data, so I don't need to remove any incomplete observations.
+
+Through this project, I will be attempting to predict whether a breast mass is benign or malignant based on various measurements of the mass itself. I want to see if there is a correlation between a set of these predictors and whether a the mass is benign or malignant. The response variable here will be a categorical variable that takes on the value of Benign or Malignant. For cancerous masses, benign tumors tend to grow slowly and don't spread. On the other hand, malignant tumors grow rapidly, invade and destroy normal tissues, and spread throughout other parts of the body. This question will be best answered with a classification approach instead of a regression approach. I think that the radius and texture measurements will be useful in this prediction. The goal of this model is predictive because I am not seeking to find a causal relationship and I do not to find a visual expression of this relationship, I only seek to predict the diagnosis based on certain measurements of the mass.
+
+I have already loaded the dataset and have begun looking through the of the various variables and the data is already tidied up. For the rest of the project, I will be following the rough deadlines set by the class syllabus:
+
+-   EDA - Week 3-4
+
+-   Run models - 5-7
+
+-   Initial Write up - 8
+
+-   Edits - 9
+
+-   Final draft - 10
+
+There is the potential for some lag since the class material won't be starting out with classification models but rather regression models. Other than this the project should run fairly smoothly - I expect decent results from the final model.
